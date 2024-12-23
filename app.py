@@ -9,10 +9,10 @@ model = joblib.load('linear_regression_model.pkl')
 st.title("Linear Regression Prediction App")
 
 # Description
-st.write("This app predicts the output based on the input value using a trained Linear Regression model.")
+st.write("This app predicts the Package based on the CGPA value using a trained Linear Regression model.")
 
 # Input field for the user
-input_value = st.number_input("Enter a feature value:", value=0.0, step=0.1)
+input_value = st.number_input("Enter a CGPA value:", value=0.0, step=0.1)
 
 # Predict button
 if st.button("Predict"):
