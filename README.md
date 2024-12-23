@@ -1,8 +1,6 @@
-Here's an example of a `README.md` file and a `requirements.txt` for your project. 
 
----
-
-### **`README.md`**
+**`README.md`**
+**search: simlinreg.streamlit.app**
 ```markdown
 # Linear Regression Prediction App
 
